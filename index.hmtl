@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Para Vitória ❤️</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #0d0d12;
+      color: #eeeef3;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.9;
+    }
+
+    /* CAPA */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+
+      background:
+        radial-gradient(
+          circle at 50% 35%,
+          rgba(150, 40, 90, 0.22),
+          transparent 35%
+        ),
+        linear-gradient(
+          180deg,
+          #11111a 0%,
+          #0d0d12 100%
+        );
+    }
+
+    .hero-inner {
+      max-width: 760px;
+    }
+
+    .tiny {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 0.7rem;
+      color: #b9aeb7;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 12vw, 7rem);
+      margin: 18px 0 8px;
+      font-weight: 400;
+      letter-spacing: -3px;
+    }
+
+    .subtitle {
+      font-style: italic;
+      color: #c9c1c7;
+      font-size: 1.1rem;
+    }
+
+    .heart {
+      font-size: 2rem;
+      margin-top: 28px;
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      50% {
+        transform: scale(1.15);
+        opacity: 0.7;
+      }
+    }
+
+    .scroll {
+      margin-top: 70px;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 3px;
+      color: #777;
+    }
+
+    /* TEXTO */
+    main {
+      max-width: 780px;
+      margin: auto;
+      padding: 80px 25px 110px;
+    }
+
+    section {
+      margin-bottom: 85px;
+    }
+
+    .num {
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: #9d7f91;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      margin: 8px 0 25px;
+    }
+
+    p {
+      font-size: 1.08rem;
+      margin: 0 0 22px;
+    }
+
+    .quote {
+      margin: 45px 0;
+      padding: 25px 22px;
+      border-left: 2px solid #8f526f;
+      color: #d8cbd3;
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+
+    /* FINAL */
+    .final {
+      text-align: center;
+      padding: 80px 10px 20px;
+      border-top: 1px solid #28252b;
+    }
+
+    .final h2 {
+      font-size: 2.4rem;
+    }
+
+    .signature {
+      margin-top: 45px;
+      font-style: italic;
+      color: #aaa;
+    }
+
+    footer {
+      text-align: center;
+      color: #555;
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      padding: 25px;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- CAPA -->
+
+  <header class="hero">
+
+    <div class="hero-inner">
+
+      <div class="tiny">
+        uma coisa que eu nunca soube dizer direito
+      </div>
+
+      <h1>Para Vitória</h1>
+
+      <div class="subtitle">
+        Talvez seja só coisa da minha cabeça. Talvez não.
+      </div>
+
+      <div class="heart">
+        ♥
+      </div>
+
+      <div class="scroll">
+        DESÇA DEVAGAR
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- TEXTO -->
+
+  <main>
+
+    <section>
+
+      <div class="num">
+        01 — COMEÇO
+      </div>
+
+      <h2>
+        Eu não sei exatamente por que estou escrevendo isso.
+      </h2>
+
+      <p>
+        Talvez porque falar seja mais difícil.
+      </p>
+
+      <p>
+        Talvez porque, quando o assunto é você,
+        eu penso demais antes de dizer qualquer coisa.
+      </p>
+
+      <p>
+        E talvez porque escrever seja a única maneira
+        de conseguir colocar em ordem essa bagunça
+        que eu mesmo faço na minha cabeça.
+      </p>
+
+      <p>
+        Porque, sinceramente...
+      </p>
+
+      <p>
+        eu não sei muito bem o que você é para mim.
+      </p>
+
+      <p>
+        Se é só uma amizade que ficou especial.
+        Se é uma paixão.
+        Se é aquele começo de alguma coisa
+        que ainda não sabe o que quer ser.
+      </p>
+
+      <p>
+        Ou se sou eu, simplesmente,
+        criando histórias na minha cabeça
+        porque gostaria que existisse alguma coisa a mais.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        02 — A DÚVIDA
+      </div>
+
+      <h2>
+        Talvez eu esteja viajando.
+      </h2>
+
+      <p>
+        Às vezes eu fico olhando para certas coisas
+        que você faz e penso:
+      </p>
+
+      <div class="quote">
+        “Será que ela gosta mesmo de falar comigo?”
+      </div>
+
+      <p>
+        Aí você é carinhosa comigo e eu penso:
+        “Talvez sim.”
+      </p>
+
+      <p>
+        Depois eu paro e penso de novo:
+      </p>
+
+      <div class="quote">
+        “Calma. Ela pode só estar sendo gentil.”
+      </div>
+
+      <p>
+        “E se ela for assim com todo mundo?”
+      </p>
+
+      <p>
+        “E se eu estiver entendendo tudo errado?”
+      </p>
+
+      <p>
+        E pronto.
+      </p>
+
+      <p>
+        Começa a confusão.
+      </p>
+
+      <p>
+        É quase como se existissem duas versões minhas.
+        Uma pensa:
+        “Cara, acho que ela gosta de mim.”
+        A outra responde:
+        “Você está viajando, ela só é uma pessoa legal.”
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        03 — AS COISAS PEQUENAS
+      </div>
+
+      <h2>
+        Quando alguém importa, tudo parece maior.
+      </h2>
+
+      <p>
+        Eu acho engraçado como uma mensagem sua
+        consegue melhorar meu humor.
+      </p>
+
+      <p>
+        Como uma conversa que talvez tenha sido normal
+        para você pode ficar na minha cabeça
+        por muito mais tempo.
+      </p>
+
+      <p>
+        Como uma coisa pequena pode virar
+        uma lembrança importante.
+      </p>
+
+      <p>
+        Talvez você nem perceba.
+      </p>
+
+      <p>
+        Talvez aquele sorriso tenha sido só um sorriso.
+        Aquela mensagem tenha sido só uma mensagem.
+        Aquela conversa tenha sido só uma conversa.
+      </p>
+
+      <p>
+        E talvez eu esteja colocando significado
+        em coisas que, para você,
+        são completamente normais.
+      </p>
+
+      <p>
+        E sabe o que é engraçado?
+      </p>
+
+      <p>
+        Eu nem consigo decidir se isso me deixa triste
+        ou se só me deixa com vergonha.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        04 — DESCULPA KKK
+      </div>
+
+      <h2>
+        As desculpas que provavelmente nunca precisaram existir.
+      </h2>
+
+      <p>
+        Desculpa se algum dia eu fui chato.
+      </p>
+
+      <p>
+        Desculpa se mandei mensagem demais.
+      </p>
+
+      <p>
+        Desculpa se fiquei meio estranho.
+      </p>
+
+      <p>
+        Desculpa se perguntei alguma coisa
+        que talvez nem precisasse.
+      </p>
+
+      <p>
+        E desculpa principalmente
+        pelas desculpas que não precisavam existir.
+      </p>
+
+      <p>
+        Mas é isso.
+      </p>
+
+      <p>
+        Quando alguém importa,
+        a gente fica meio idiota mesmo.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        05 — CIÚMES
+      </div>
+
+      <h2>
+        Essa parte eu nem vou tentar esconder.
+      </h2>
+
+      <p>
+        Às vezes vejo você conversando com alguém
+        e meu cérebro simplesmente decide
+        que aquilo é um problema.
+      </p>
+
+      <p>
+        Mesmo eu sabendo que não é.
+      </p>
+
+      <p>
+        Você não me deve explicações.
+        Não existe um “nós” definido
+        que me dê esse direito.
+      </p>
+
+      <p>
+        Você é livre.
+      </p>
+
+      <p>
+        E eu sei disso.
+      </p>
+
+      <p>
+        Só que saber disso
+        e sentir isso
+        são duas coisas completamente diferentes.
+      </p>
+
+      <p>
+        Então eu tento guardar.
+        Respiro.
+        Finjo que está tudo normal.
+      </p>
+
+      <p>
+        E por dentro penso:
+      </p>
+
+      <div class="quote">
+        “Tá bom... legal...”
+      </div>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        06 — UM ABRAÇO
+      </div>
+
+      <h2>
+        Eu ainda queria aquele abraço.
+      </h2>
+
+      <p>
+        Não precisa ser por algum motivo específico.
+      </p>
+
+      <p>
+        Só um abraço.
+      </p>
+
+      <p>
+        Um daqueles que não precisam de explicação.
+      </p>
+
+      <p>
+        Eu chegar perto,
+        te abraçar,
+        ficar alguns segundos
+        e pronto.
+      </p>
+
+      <p>
+        Sem precisar resolver nada.
+        Sem precisar descobrir o que somos.
+      </p>
+
+      <p>
+        Só estar ali.
+      </p>
+
+      <p>
+        Talvez eu esteja querendo
+        coisas simples demais.
+      </p>
+
+      <p>
+        Mas são justamente essas coisas
+        que eu mais gosto.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        07 — O QUE EU NÃO QUERO
+      </div>
+
+      <h2>
+        Eu não quero te pressionar.
+      </h2>
+
+      <p>
+        Não quero que você se sinta presa.
+      </p>
+
+      <p>
+        Não quero que você pense
+        que precisa corresponder
+        porque eu gosto de você.
+      </p>
+
+      <p>
+        Não quero que minha expectativa
+        vire uma responsabilidade sua.
+      </p>
+
+      <p>
+        Se você gosta de mim só como amigo,
+        eu prefiro saber disso
+        do que fazer você fingir alguma coisa.
+      </p>
+
+      <p>
+        E se você não souber ainda
+        o que sente,
+        tudo bem também.
+      </p>
+
+      <p>
+        Eu também não sei.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        08 — TALVEZ
+      </div>
+
+      <h2>
+        Talvez eu só esteja imaginando.
+      </h2>
+
+      <p>
+        Talvez você nem imagine tudo isso.
+      </p>
+
+      <p>
+        Talvez você fale comigo normalmente
+        e não pense absolutamente nada demais.
+      </p>
+
+      <p>
+        Talvez eu seja só mais uma pessoa
+        com quem você conversa.
+      </p>
+
+      <p>
+        Talvez, se eu parasse de mandar mensagem,
+        você nem sentiria tanta falta.
+      </p>
+
+      <p>
+        E essa ideia é meio ruim.
+      </p>
+
+      <p>
+        Porque, no fundo,
+        eu gostaria de ser importante para você.
+      </p>
+
+      <p>
+        Não necessariamente
+        do jeito que eu gostaria que fosse.
+      </p>
+
+      <p>
+        Só... importante.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        09 — MAS EU GOSTO
+      </div>
+
+      <h2>
+        Uma coisa eu sei.
+      </h2>
+
+      <p>
+        Eu gosto da sua presença.
+      </p>
+
+      <p>
+        Gosto de conversar com você.
+      </p>
+
+      <p>
+        Gosto quando você aparece.
+      </p>
+
+      <p>
+        Gosto quando você me chama.
+      </p>
+
+      <p>
+        Gosto das nossas conversas bobas.
+      </p>
+
+      <p>
+        Gosto das coisas pequenas.
+      </p>
+
+      <p>
+        E talvez eu goste até demais
+        daquela sensação de ver uma mensagem sua
+        e perceber que, por algum motivo,
+        meu humor melhorou.
+      </p>
+
+      <p>
+        É meio ridículo.
+      </p>
+
+      <p>
+        Mas é verdade.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        10 — SEM RESPOSTA
+      </div>
+
+      <h2>
+        Eu não preciso saber tudo agora.
+      </h2>
+
+      <p>
+        Eu não quero transformar esse texto
+        em uma declaração.
+      </p>
+
+      <p>
+        Não quero dizer que sei
+        que somos feitos um para o outro.
+      </p>
+
+      <p>
+        Não quero dizer
+        que você é o amor da minha vida.
+      </p>
+
+      <p>
+        Eu só sei o que sinto agora.
+      </p>
+
+      <p>
+        E agora...
+      </p>
+
+      <div class="quote">
+        eu gosto de você.
+      </div>
+
+      <p>
+        Gosto de verdade.
+      </p>
+
+      <p>
+        Mesmo com todas essas dúvidas.
+        Talvez até por causa delas.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <div class="num">
+        11 — VERDADE
+      </div>
+
+      <h2>
+        Se eu estiver imaginando coisas...
+      </h2>
+
+      <p>
+        Provavelmente vou ficar com vergonha.
+      </p>
+
+      <p>
+        Talvez eu dê risada de mim mesmo.
+      </p>
+
+      <p>
+        Talvez eu pense:
+        “Meu Deus, eu viajei demais.”
+      </p>
+
+      <p>
+        Mas ainda assim
+        não vou me arrepender
+        de ter gostado de você.
+      </p>
+
+      <p>
+        Porque sentir alguma coisa por alguém
+        não é vergonha.
+      </p>
+
+      <p>
+        Criar expectativas às vezes acontece.
+        Ter medo acontece.
+        Sentir ciúmes acontece.
+        Ficar confuso acontece.
+      </p>
+
+      <p>
+        Principalmente comigo. KKK
+      </p>
+
+    </section>
+
+
+    <!-- FINAL -->
+
+    <section class="final">
+
+      <h2>
+        Então, Vitória...
+      </h2>
+
+      <p>
+        se você algum dia ler isso,
+        não precisa procurar uma resposta escondida
+        em cada palavra.
+      </p>
+
+      <p>
+        Não precisa tentar descobrir
+        o que deveria sentir.
+      </p>
+
+      <p>
+        Só queria que você soubesse
+        uma coisa simples:
+      </p>
+
+      <div class="quote">
+        você se tornou importante para mim.
+      </div>
+
+      <p>
+        Eu gosto de ter você na minha vida.
+      </p>
+
+      <p>
+        Gosto de conversar com você.
+      </p>
+
+      <p>
+        Gosto dos nossos momentos.
+      </p>
+
+      <p>
+        E, sim...
+        às vezes eu fico imaginando
+        se poderia existir alguma coisa a mais.
+      </p>
+
+      <p>
+        Mas talvez seja só imaginação.
+      </p>
+
+      <p>
+        Talvez não.
+      </p>
+
+      <p>
+        Eu ainda não sei.
+      </p>
+
+      <p>
+        E, pela primeira vez,
+        acho que tudo bem não saber.
+      </p>
+
+      <p style="margin-top:45px; font-size:1.35rem;">
+        Eu gosto de você, Vitória. ❤️
+      </p>
+
+      <div class="signature">
+        — alguém que pensa demais,
+        mas sente de verdade.
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    feito com carinho • para uma pessoa especial
+  </footer>
+
+</body>
+</html>
